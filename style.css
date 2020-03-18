@@ -5,6 +5,27 @@
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
+}
+
+.container {
+    width: 1080px;
+    margin: auto;
+    background-color: red;
+}
+
+header {
+    width: 100%;
+}
+
+.header1 {
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    height: 85px;
+}
+
+.header2 {
+    height: 92px;
+    box-shadow: 0 11px 8px -10px rgba(51,71,91,0.12);
 }
