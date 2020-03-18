@@ -29,3 +29,42 @@ header {
     height: 92px;
     box-shadow: 0 11px 8px -10px rgba(51,71,91,0.12);
 }
+
+.minilogo {
+    float: left;
+    width: 15%;
+    height: 85px;
+    background-color: orange;
+}
+
+.contact {
+    float: left;
+    width: 15%;
+    height: 85px;
+    background-color: red;
+}
+
+.cta {
+    float: right;
+    width: 30%;
+    height: 85px;
+    background-color: red;
+}
+
+.logoleft {
+    float: left;
+    width: 15%;
+    height: 92px;
+    background-color: orange;
+}
+
+.menu {
+    float: right;
+    width: 60%;
+    height: 92px;
+    background-color: red;
+}
+ #loghino {
+     width: 1.5rem;
+     height: 1.5rem;
+ }
