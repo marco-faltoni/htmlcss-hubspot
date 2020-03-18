@@ -18,8 +18,8 @@ body {
 .container {
     width: 1080px;
     margin: auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
 }
 
 .container2 {
@@ -79,8 +79,7 @@ header {
 
 #English {
     position: relative;
-    top 5%;
-    font-size: 600;
+    font-weight: 400;
 }
 
 #loghino {
@@ -96,7 +95,7 @@ header {
     position: relative;
     padding-left: 11%;
     padding-right: 11%;
-    font-size: 800;
+    font-weight: 400;
 }
 
 #search {
@@ -118,7 +117,6 @@ header {
 
 .btn-primary:hover {
     background-color: #ffbcac;
-
 }
 
 .btn {
@@ -159,7 +157,7 @@ header {
     font-weight: 600;
 }
 
-#arrow2 {
+.arrow2 {
     height: 0.9rem;
     margin-left: -80%;
 }
@@ -168,6 +166,58 @@ header {
     height: 0.9rem;
 }
 
-#About {
-    margin-right:
+#background {
+    height: 750px;
+    width: 100vw;
+    background-image: url('img/Background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 1.5px solid #33475b;
+}
+
+.container3 {
+    width: 1080px;
+    margin: auto;
+    padding-top: 4.1%;
+
+}
+
+.main-text {
+    float: left;
+    width: 430px;
+    color: #33475b;
+}
+
+h1 {
+    font-size: 2.555rem;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+p {
+    line-height: 1.7;
+    margin-bottom: 3%;
+}
+
+.btn-primary2 {
+    border-radius: 5px;
+    background-color: #ff7a59;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6% 6%;
+    float: left;
+}
+
+.btn-primary2:hover {
+    background-color: #ffbcac;
+}
+
+#textmini {
+    float: left;
+    width: 245px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 4%;
 }
