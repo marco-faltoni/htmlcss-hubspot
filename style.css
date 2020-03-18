@@ -25,8 +25,8 @@ body {
 .container2 {
     width: 1080px;
     margin: auto;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 header {
@@ -63,7 +63,7 @@ header {
 }
 
 .cta {
-    width: 24%;
+    width: 25%;
     float: right;
 }
 
@@ -74,7 +74,7 @@ header {
 
 .menubar {
     float: right;
-    width: 75%;
+    width: 70%;
 }
 
 #English {
@@ -109,12 +109,16 @@ header {
 .btn-primary {
     border-radius: 5px;
     background-color: #ff7a59;
-    border: 1px solid #ff7a59;
     text-decoration: none;
     color: #fff;
     font-size: 14px;
-    padding: 5% 7%;
+    padding: 5.1% 6%;
     float: right;
+}
+
+.btn-primary:hover {
+    background-color: #ffbcac;
+
 }
 
 .btn {
@@ -124,8 +128,12 @@ header {
     color: #ff7a59;
     text-decoration: none;
     font-size: 14px;
-    padding: 5% 9%;
+    padding: 5% 10%;
     float: left;
+}
+
+.btn:hover {
+    background-color: #fff1ee;
 }
 
 #loghino2 {
@@ -146,7 +154,20 @@ header {
     color: #33475b;
     text-decoration: none;
     display: inline-block;
-    padding-left: 68px;
+    padding-left: 29px;
     font-size: 16px;
     font-weight: 600;
+}
+
+#arrow2 {
+    height: 0.9rem;
+    margin-left: -80%;
+}
+
+#arrowD {
+    height: 0.9rem;
+}
+
+#About {
+    margin-right:
 }
