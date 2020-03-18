@@ -9,10 +9,17 @@ body {
     position: relative;
 }
 
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
 .container {
     width: 1080px;
     margin: auto;
-    background-color: red;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 header {
@@ -22,7 +29,6 @@ header {
 .header1 {
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
-    height: 85px;
 }
 
 .header2 {
@@ -32,23 +38,27 @@ header {
 
 .minilogo {
     float: left;
-    width: 15%;
-    height: 85px;
-    background-color: orange;
+    width: 29%;
+    position: relative;
 }
 
-.contact {
-    float: left;
-    width: 15%;
-    height: 85px;
-    background-color: red;
+.minilogo::before {
+    content: '';
+    height: 110%;
+    background-color: #cbd6e2;
+    position: absolute;
+    width: 2px;
+    margin-left: 42%;
+}
+
+.minilogo a {
+    text-decoration: none;
+    color: #33475b;
 }
 
 .cta {
+    width: 24%;
     float: right;
-    width: 30%;
-    height: 85px;
-    background-color: red;
 }
 
 .logoleft {
@@ -64,7 +74,54 @@ header {
     height: 92px;
     background-color: red;
 }
- #loghino {
-     width: 1.5rem;
-     height: 1.5rem;
+
+#English {
+    position: relative;
+    top 5%;
+    font-size: 600;
+}
+
+#loghino {
+     height: 1.4rem;
  }
+
+#arrow {
+    height: 0.9rem;
+    margin-left: 1%;
+}
+
+#Sales {
+    position: relative;
+    padding-left: 11%;
+    padding-right: 11%;
+    font-size: 800;
+}
+
+#search {
+    height: 1.2rem;
+    float: right;
+    margin-top: 1%;
+    margin-right: 4%;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #ff7a59;
+    border: 1px solid #ff7a59;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5% 7%;
+    float: right;
+}
+
+.btn {
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 5% 9%;
+    float: left;
+}
