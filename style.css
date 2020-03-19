@@ -36,10 +36,13 @@ header {
 .header1 {
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
+    position: fixed;
+    width: 100%;
 }
 
 .header2 {
     box-shadow: 0 11px 8px -10px rgba(51,71,91,0.12);
+    padding-top: 92px;
 }
 
 .minilogo {
@@ -171,8 +174,8 @@ header {
     width: 100vw;
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    border-bottom: 1.5px solid #33475b;
+    background-size: cover;
+    border-bottom: 3px solid #33475b;
 }
 
 .container3 {
@@ -220,4 +223,126 @@ p {
     font-size: 12px;
     font-weight: 600;
     margin-top: 4%;
+}
+
+#menuliste  {
+    background-color: #f5f8fa;
+    height: 1010px;
+}
+
+.container4 {
+    width: 1080px;
+    height: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.text-and-box {
+    height: 39%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.boxes {
+    height: 61%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.main-text2 {
+    float: left;
+    width: 31%;
+    color: #33475b;
+}
+
+.h1-2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+
+#box1 {
+    float: right;
+    width: 66%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 11px #eaf0f6;
+    border-radius: .1875rem;
+    padding: 5%;
+    position: relative;
+}
+
+#cerchio {
+    display: inline-block;
+    height: 26px;
+    vertical-align: middle;
+}
+
+h4 {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#p-mini {
+    font-size: 12px;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#p-mini2 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 4.5%;
+}
+
+#p-mini2::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(153,172,194,0.2);
+    top: 4px;
+    width: 463px;
+}
+
+.p-mini3 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+.p-mini3::before {
+    content: '\f058';
+    font-family: "Font Awesome 5 Pro";
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff7a59;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn-primary3 {
+    border-radius: 5px;
+    background-color: #ff7a59;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 2.5% 10%;
+    position: absolute;
+    bottom: 11%;
+    left: 57%;
+}
+
+.btn-primary3:hover {
+    background-color: #ffbcac;
 }
