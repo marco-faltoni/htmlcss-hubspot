@@ -38,6 +38,7 @@ header {
     border-bottom: 1px solid #cbd6e2;
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 .header2 {
