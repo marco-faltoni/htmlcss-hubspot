@@ -179,7 +179,7 @@ header {
 }
 
 .container3 {
-    width: 1080px;
+    width: 1098px;
     margin: auto;
     padding-top: 4.1%;
 
@@ -245,7 +245,7 @@ p {
 }
 
 .boxes {
-    height: 61%;
+    height: 60%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -269,8 +269,13 @@ p {
     background-color: white;
     box-shadow: 0 0 11px #eaf0f6;
     border-radius: .1875rem;
-    padding: 5%;
+    padding: 4.5% 5% 5% 5%;
     position: relative;
+}
+
+#box1:hover {
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.014);
 }
 
 #cerchio {
@@ -287,13 +292,13 @@ h4 {
     margin-left: 5px;
 }
 
-#p-mini {
+.p-mini {
     font-size: 12px;
     margin-top: 5%;
     margin-bottom: 4%;
 }
 
-#p-mini2 {
+.p-mini2 {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -301,7 +306,7 @@ h4 {
     margin-bottom: 4.5%;
 }
 
-#p-mini2::after {
+.p-mini2::after {
     content: '';
     position: absolute;
     height: 5px;
@@ -316,6 +321,7 @@ h4 {
     font-size: 12px;
     font-weight: 600;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 
@@ -339,10 +345,69 @@ h4 {
     font-weight: 600;
     padding: 2.5% 10%;
     position: absolute;
-    bottom: 11%;
+    bottom: 12%;
     left: 57%;
 }
 
 .btn-primary3:hover {
+    background-color: #ffbcac;
+}
+
+.box2 {
+    float: left;
+    width: 32%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 11px #eaf0f6;
+    border-radius: .1875rem;
+    padding: 4.5% 5% 5% 5%;
+    position: relative;
+    margin-right: 2%;
+}
+
+.box2:last-of-type{
+    margin-right: 0
+}
+
+.box2:hover {
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+    transform: scale(1.014);
+}
+
+.icons1  {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.p-mini4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    padding-top: 8.5%;
+    border-top: 1px solid rgba(153,172,194,0.2);
+}
+
+.p-mini5 {
+    font-size: 12px;
+    margin-top: 11%;
+    margin-bottom: 4%;
+}
+
+.btn-primary4 {
+    border-radius: 5px;
+    background-color: #ff7a59;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4.5% 21%;
+    position: absolute;
+    bottom: 8%;
+}
+
+.btn-primary4:hover {
     background-color: #ffbcac;
 }
