@@ -171,7 +171,7 @@ header {
 
 #background {
     height: 750px;
-    width: 100vw;
+    width: 100%;
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,7 +179,7 @@ header {
 }
 
 .container3 {
-    width: 1098px;
+    width: 1080px;
     margin: auto;
     padding-top: 4.1%;
 
@@ -499,4 +499,71 @@ h2 {
     padding: 30px;
     width: 25%;
     float: left;
+}
+
+.customers-data {
+    width: 1080px;
+    margin: auto;
+    height: 290px;
+}
+
+.text-customers {
+    padding-top: 100px;
+    width: 25%;
+    float: left;
+}
+
+.text-customers h2 {
+    font-size: 2.5rem;
+    color: #33475b;
+    margin-bottom: 7%;
+}
+
+.images-customers {
+    padding-top: 75px;
+    float: right;
+}
+
+.black-man {
+    width: 1080px;
+    height: 650px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.blacked {
+    float: right;
+}
+
+.text-black {
+    float: left;
+    width: 41%;
+    color: #33475b;
+    margin-bottom: 7%;
+    position: relative;
+}
+
+.btn-primary5 {
+    border-radius: 5px;
+    background-color: #ff7a59;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 6% 6%;
+    position: absolute;
+    left: 0;
+    top: 222px;
+}
+
+.btn-primary5:hover {
+    background-color: #ffbcac;
+}
+
+#textmini2 {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    top: 333px;
 }
