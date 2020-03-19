@@ -568,3 +568,19 @@ h2 {
 .black {
     float: right;
 }
+
+footer {
+    background-color: #33475b;
+    padding-top: 100px;
+}
+
+.foot {
+    width: 1080px;
+    margin: auto;
+    height: 662px;
+}
+
+.footer-nav {
+    height: 393px;
+    width: 100%;
+}
