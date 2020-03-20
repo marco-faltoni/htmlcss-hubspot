@@ -584,3 +584,52 @@ footer {
     height: 393px;
     width: 100%;
 }
+
+.footer-list {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+    padding-right: 1%
+}
+
+.fot2 {
+    float: left;
+    padding: 0 1%;
+    list-style-type: none;
+}
+
+.fot3 {
+    float: left;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    list-style-type: none;
+}
+
+.fot4 {
+    float: left;
+    list-style-type: none;
+    padding-left: 4.5%;
+    padding-right: 0;
+}
+
+.footer-list li{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: #cbd6e2;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.footer-list li a:hover{
+    color: #7fd1de;
+    text-decoration: none;
+}
