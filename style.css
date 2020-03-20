@@ -572,12 +572,12 @@ h2 {
 footer {
     background-color: #33475b;
     padding-top: 100px;
+    padding-bottom: 60px;
 }
 
 .foot {
     width: 1080px;
     margin: auto;
-    height: 662px;
 }
 
 .footer-nav {
@@ -696,6 +696,43 @@ footer {
 }
 
 .list-lingue a:hover {
+    color: #7fd1de;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    width: 1080px;
+    padding: 3rem 0;
+    border-top: 1px solid #7c98b6;
+}
+
+.copyright {
+    float: left;
+    width: 30%;
+    color: #cbd6e2;
+}
+
+.copyright img {
+    height: 1.9rem;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.stuff {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+.stuff a {
+    color: #cbd6e2;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 12%;
+    font-weight: 600;
+}
+
+.stuff a:hover {
     color: #7fd1de;
     text-decoration: none;
 }
