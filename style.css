@@ -581,7 +581,6 @@ footer {
 }
 
 .footer-nav {
-    height: 393px;
     width: 100%;
 }
 
@@ -630,6 +629,73 @@ footer {
 }
 
 .footer-list li a:hover{
+    color: #7fd1de;
+    text-decoration: none;
+}
+
+#FreeTools {
+    display: inline-block;
+    margin-right: 4%;
+}
+
+#arrow3 {
+    height: 0.9rem;
+}
+
+.btn-primary6 {
+    float: left;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #33475b;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 7% 15%;
+    display:inline-block;
+    margin-top: 8%;
+}
+
+#icone-social {
+    float: right;
+    width: 21%;
+    padding-top: 4%;
+}
+
+#social-icons li{
+    display: inline-block;
+    color: #cbd6e2;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+#social-icons li:hover{
+    color: #7fd1de;
+    text-decoration: none;
+}
+
+.languages {
+    display: block;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.languages-list li a{
+    text-decoration: none;
+    color: #cbd6e2;
+    font-weight: 600;
+    padding: 1rem 0;
+
+}
+
+.list-lingue {
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-lingue a:hover {
     color: #7fd1de;
     text-decoration: none;
 }
